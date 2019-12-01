@@ -9,7 +9,7 @@ class Config(object):
    MAIL_SERVER = os.environ.get('smtp.googlemail.com')
    MAIL_PORT = int(os.environ.get('587') or 25)
    MAIL_USE_TLS = os.environ.get('1') is not None
-   MAIL_USERNAME = os.environ.get('sjg2001')
-   MAIL_PASSWORD = os.environ.get('wes#1C@t')
+   MAIL_USERNAME = os.environ.get('***********')
+   MAIL_PASSWORD = os.environ.get('************')
    ADMINS = ['stjagu@whiskeytango.us']
    POSTS_PER_PAGE = 25
